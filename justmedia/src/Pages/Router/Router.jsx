@@ -11,7 +11,7 @@ const Router = () => {
         <div className="w-[20%] border border-l-slate-500">
           <Sidebar />
         </div>
-       <div className="w-full">
+       <div className="w-full ">
           <Routes>
             <Route path="/" element={<Homepage />}></Route>
             <Route path="/username" element={<Profile/>}></Route>
